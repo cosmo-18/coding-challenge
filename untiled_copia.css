@@ -1,0 +1,88 @@
+/* immagine di sfondo e font */
+body {
+  background-image:url(background.jpg);
+  background-size: 100%;
+  margin: auto;
+  width:100%;
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 11px
+}
+
+/* blocco contenitore del sito */
+.contenitore {
+  width: 790px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  padding: 50px;
+}
+
+/* dimensioni e posizione logo  */
+img {
+  width: 200px;
+  margin:auto;
+}
+
+/* intestazione */
+header {
+  text-align: center;
+  color: limegreen
+}
+
+/* margine del blocco buttons */
+.inizio_e_fine_noleggio {
+  margin: 20px;
+}
+
+/* margine del testo nel contenitore */
+.seleziona_monopattino {
+  margin: 20px
+}
+
+/* colore testo e margine sezioni */
+section {
+  color: white;
+  padding: 4px;
+}
+
+ /* banner buttons */
+.blocco_buttons {
+  background-color: limegreen;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* allineamento del bottone di scelta del monopattino e del titolo sezione */
+#sectiontext {
+  display:inline;
+}
+
+/* banner 1a batteria */
+.statobatteria_1 {
+  width: 190px;
+  height: 20px;
+  border-radius: 10px;
+  background: plum
+}
+
+/* banner 2a batteria */
+.statobatteria_2 {
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  background: violet
+}
+
+/* banner 3a batteria */
+.statobatteria_3 {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  background: purple
+}
